@@ -1,24 +1,7 @@
-HIÊN — NHẬT KÝ GIAO DỊCH
+NHẬT KÍ GIAO DỊCH
 
-Bản web mới nhất: thống kê theo tuần, lọc hiệu suất theo cặp tiền.
+Giải nén và mở index.html để sử dụng.
+Khi đưa lên dịch vụ lưu trữ trang web tĩnh, chọn thư mục chứa index.html làm thư mục xuất bản.
 
-CÁCH CHẠY
-- Giải nén, mở thư mục chứa index.html.
-- Có thể mở index.html trực tiếp trên trình duyệt.
-- Cách ổn định hơn: nếu máy đã có Python, chạy:
-  python -m http.server 8000
-  rồi mở http://localhost:8000
-- Đưa 4 tệp web lên hosting tĩnh (Render Static Site, GitHub Pages...) để dùng trên iPhone.
-- Không cần cài thư viện hay build.
-
-CÁC TỆP
-index.html: giao diện
-style.css: theme và kiểu kính
-app.js: nhật ký, ảnh, cảm xúc, lịch và bộ lọc
-analytics.js: công thức thống kê và chia tuần (thứ Hai đến Chủ nhật)
-
-DỮ LIỆU
-Nhật ký và ảnh lưu trong IndexedDB của trình duyệt; tên và theme lưu trong localStorage.
-File ZIP chỉ chứa mã web, không chứa những nhật ký bạn đã nhập.
-Khi đổi địa chỉ web, thiết bị hoặc trình duyệt, dữ liệu cũ không tự chuyển sang.
-Font chữ tải từ Google Fonts; khi mất mạng trình duyệt dùng font dự phòng.
+Nhật kí và ảnh được lưu trong trình duyệt trên từng thiết bị. File ZIP chứa mã nguồn, không chứa nhật kí cá nhân đã ghi.
+Sử dụng cùng địa chỉ web và trình duyệt để xem lại dữ liệu.
