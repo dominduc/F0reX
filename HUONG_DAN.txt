@@ -1,7 +1,9 @@
-NHẬT KÍ GIAO DỊCH
+NHẬT KÍ GIAO DỊCH — BẢN CÓ GHI CHÚ
 
-Giải nén và mở index.html để sử dụng.
-Khi đưa lên dịch vụ lưu trữ trang web tĩnh, chọn thư mục chứa index.html làm thư mục xuất bản.
-
-Nhật kí và ảnh được lưu trong trình duyệt trên từng thiết bị. File ZIP chứa mã nguồn, không chứa nhật kí cá nhân đã ghi.
-Sử dụng cùng địa chỉ web và trình duyệt để xem lại dữ liệu.
+1. Thay cả 4 tệp index.html, style.css, app.js và analytics.js trong cùng thư mục website. Không cần thêm thư viện hay bước build. Mở index.html hoặc đưa thư mục này lên dịch vụ web tĩnh như trước.
+2. Ba mục: Nhật kí (trang chính), Lịch sử và Ghi chú. Giữ nguyên các bảng màu và giao diện kính hiện có.
+3. Số lot là trường tùy chọn khi thêm/sửa nhật kí. Lịch sử tính lot trung bình = tổng lot / số lệnh có nhập lot, theo bộ lọc tên giao dịch. Lệnh cũ chưa nhập lot không được tính thành 0; có thể sửa lệnh để bổ sung. Không có lot thì hiển thị dấu —.
+4. Ghi chú: nhấn ＋ để tạo, nhập tiêu đề/nội dung, chọn chữ rồi nhấn B/I/U để in đậm/in nghiêng/gạch chân; aA để viết hoa phần đã chọn; H để tạo tiêu đề đoạn; các nút danh sách để thêm gạch đầu dòng/đánh số; ▧ để chèn ảnh. Tối đa 12 ảnh mỗi ghi chú, mỗi ảnh gốc dưới 25 MB; ảnh được thu nhỏ để tiết kiệm dung lượng. Chạm ảnh để xem hoặc xóa. Nội dung dán vào được giữ dạng văn bản thuần; định dạng bằng thanh công cụ.
+5. Nhấn Xong để lưu. Khi rời ghi chú có thay đổi chưa lưu, web hỏi trước khi bỏ thay đổi. Dùng ô tìm kiếm để tìm tiêu đề hoặc nội dung.
+6. Nút nguồn nhỏ góc dưới phải mở hộp xác nhận xóa toàn bộ dữ liệu của web trên trình duyệt này. Không: giữ lại. Có, xóa toàn bộ: xóa nhật kí, lịch sử, ghi chú, ảnh, tên giao dịch và cài đặt. Không thể hoàn tác.
+7. Dữ liệu nằm trong trình duyệt trên từng thiết bị, không tự đồng bộ và không nằm trong ZIP mã nguồn. Giữ nguyên địa chỉ web và trình duyệt để dùng lại dữ liệu đã lưu. Bản cập nhật nâng cấu trúc lưu trữ nhưng giữ các nhật kí hiện có. Đóng các tab web cũ trước lần mở bản mới đầu tiên; nếu còn giao diện cũ, tải lại bằng Ctrl+Shift+R.
